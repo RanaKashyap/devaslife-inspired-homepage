@@ -12,7 +12,7 @@ const Page = () => {
         <Layout>
             <Container>
                 <Box borderRadius="lg" bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')} p={3} mb={6} align="center">
-                    Hello, I&apos;m a undergrad at University of Central Florida!
+                    Hello, I&apos;m a undergraduate at University of Central Florida!
                 </Box>
 
                 <Box display={{ md: 'flex' }}>
@@ -27,10 +27,10 @@ const Page = () => {
                     </Box>
                 </Box>
                 <Section delay={0.1}>
-                    <Heading as="h3" variant="section-title">Work</Heading>
-                    <Paragraph>Paragraph</Paragraph>
+                    <Heading as="h3" variant="section-title">Works</Heading>
+                    <Paragraph>Check out my projects here!</Paragraph>
                     <Box align="center" my={4}>
-                        <NextLink href="/works">
+                        <NextLink href="https://github.com/RanaKashyap?tab=repositories">
                             <Button rightIcon={<ChevronRightIcon />} colorScheme="green">
                                 My portfolio
                             </Button>
